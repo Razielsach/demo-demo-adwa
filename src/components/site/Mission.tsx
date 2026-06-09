@@ -1,29 +1,19 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "@tanstack/react-router";
 import { LogoCloud, type Logo } from "@/components/ui/logo-cloud-3";
-import amc from "@/assets/clients/amc_networks_logo.png.asset.json";
-import amref from "@/assets/clients/amref_logo.png.asset.json";
-import devAfrique from "@/assets/clients/dev_afrique_logo.jpg.asset.json";
-import emergency from "@/assets/clients/emegency_logo.png.asset.json";
-import esmap from "@/assets/clients/ESMAP_Logo.png.asset.json";
-import ecma from "@/assets/clients/ethiopian_capital_market_authority_logo.png.asset.json";
-import ema from "@/assets/clients/ethiopian_medical_association_logo.png.asset.json";
-import efda from "@/assets/clients/ethiopian-food-and-drug-authority.jpg.asset.json";
-import heineken from "@/assets/clients/heineken-ethiopia.png.asset.json";
-import kitchen from "@/assets/clients/Kitchen_world_logo.png.asset.json";
-import aboutImg from "@/assets/home-about.jpg.asset.json";
+
 
 const ALL_LOGOS: Logo[] = [
-  { src: amc.url, alt: "AMC Network" },
-  { src: amref.url, alt: "Amref Health Africa" },
-  { src: devAfrique.url, alt: "Dev-Afrique" },
-  { src: emergency.url, alt: "Emergency" },
-  { src: esmap.url, alt: "ESMAP" },
-  { src: ecma.url, alt: "Ethiopian Capital Market Authority" },
-  { src: ema.url, alt: "Ethiopian Medical Association" },
-  { src: efda.url, alt: "EFDA" },
-  { src: heineken.url, alt: "Heineken Ethiopia" },
-  { src: kitchen.url, alt: "Kitchen World" },
+  { src: "/amc_networks_logo.png", alt: "AMC Network" },
+  { src: "/amref_logo.png", alt: "Amref Health Africa" },
+  { src: "/dev_afrique_logo.png", alt: "Dev-Afrique" },
+  { src: "/emegency-logo.png, alt": "Emergency" },
+  { src: "/esmap_logo.png, alt": "ESMAP" },
+  { src: "/ethiopian_capital_market_authority_logo.png", alt: "Ethiopian Capital Market Authority" },
+  { src: "/ethiopian_medical_association_logo.png", alt: "Ethiopian Medical Association" },
+  { src: "/ethiopian-food-and-drug-authority.jpg", alt: "EFDA" },
+  { src: "/heineken-ethiopia.png", alt: "Heineken Ethiopia" },
+  { src: "/kitchen_world_logo.png", alt: "Kitchen World" },
 ];
 
 const ROW_ONE = ALL_LOGOS.slice(0, 5);
